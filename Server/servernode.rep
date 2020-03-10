@@ -1,0 +1,7 @@
+#include "nodecounters.h"
+
+class ServerNode
+{
+    SLOT(void TakeSnapshot());
+    PROP(NodeCountersClass Counters);
+};
